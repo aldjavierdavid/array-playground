@@ -1007,7 +1007,7 @@ let countries = [{
 }];
 
 
-let resultado = countries.filter(); // TODO: Crea un nuevo array todos los paises que que usan el 'EURO' como mondeda
+let resultado = countries.filter(currencyName.includes("EURO")); // TODO: Crea un nuevo array todos los paises que que usan el 'EURO' como mondeda
 console.log("Paises que usan el euro: ", resultado);
 
 let pokemons = [
